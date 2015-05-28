@@ -1,0 +1,1 @@
+2015-05-17 12:00:00,022 INFO  [STDOUT] (taskScheduler-1) Hibernate: delete from OS_AUTH_TOKENS where EXPIRES_ON<?

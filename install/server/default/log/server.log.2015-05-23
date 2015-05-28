@@ -1,0 +1,4 @@
+2015-05-23 00:05:23,251 INFO  [STDOUT] (http-0.0.0.0-8080-2) Hibernate: select authdomain0_.IDENTIFIER as IDENTIFI1_33_, authdomain0_.AUTH_TYPE as AUTH_TYP2_33_, authdomain0_.DOMAIN_NAME as DOMAIN_N3_33_ from OS_AUTH_DOMAINS authdomain0_ limit ?
+2015-05-23 00:05:23,254 INFO  [STDOUT] (http-0.0.0.0-8080-2) Hibernate: select authprovid0_.IDENTIFIER as IDENTIFI1_34_0_, authprovid0_.AUTH_TYPE as AUTH_TYP2_34_0_, authprovid0_.IMPL_CLASS as IMPL_CLA3_34_0_ from OS_AUTH_PROVIDERS authprovid0_ where authprovid0_.AUTH_TYPE=?
+2015-05-23 00:05:23,256 INFO  [STDOUT] (http-0.0.0.0-8080-2) Hibernate: select props0_.AUTH_PROVIDER_ID as AUTH_PRO1_34_0_, props0_.VALUE as VALUE2_35_0_, props0_.NAME as NAME3_0_ from OS_AUTH_PROVIDER_PROPS props0_ where props0_.AUTH_PROVIDER_ID=?
+2015-05-23 12:00:00,015 INFO  [STDOUT] (taskScheduler-1) Hibernate: delete from OS_AUTH_TOKENS where EXPIRES_ON<?
